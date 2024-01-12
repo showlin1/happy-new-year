@@ -163,7 +163,7 @@ p {
     background: rgba(255, 0, 0, 0.10);
     width: 82%;
     max-width: 1320px;
-    margin: 120px auto;
+    margin: 100px auto;
     padding: 100px 0;
     flex-shrink: 0;
 
@@ -198,5 +198,46 @@ p {
     line-height: normal;
     text-transform: uppercase;
     margin-top: 60px;
-    
+
+}
+
+.shopping {
+    width: 82%;
+    max-width: 1320px;
+    margin: 0px auto;
+    padding: 40px 0;
+}
+
+.gifts-heading h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.gifts-heading h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.gifts-heading h5{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.best-gifts{
+    display: flex;
+    justify-content: space-between;
+}
+.cosmetic{
+    display: flex;
+    justify-content: space-between;
 }
