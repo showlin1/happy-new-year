@@ -109,8 +109,7 @@ p {
     width: 82%;
     max-width: 1320px;
     height: 600px;
-    flex-shrink: 0;
-    margin: 0 auto;
+    margin: 100px auto;
     display: flex;
     align-items: center;
     justify-content: baseline;
@@ -163,7 +162,7 @@ p {
     background: rgba(255, 0, 0, 0.10);
     width: 82%;
     max-width: 1320px;
-    margin: 100px auto;
+    margin: 0px auto;
     padding: 100px 0;
     flex-shrink: 0;
 
@@ -205,7 +204,11 @@ p {
     width: 82%;
     max-width: 1320px;
     margin: 0px auto;
-    padding: 40px 0;
+    padding: 100px 0;
+}
+
+.gifts-heading {
+    margin-bottom: 26px;
 }
 
 .gifts-heading h4 {
@@ -215,8 +218,10 @@ p {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-bottom: 16px;
 }
-.gifts-heading h1{
+
+.gifts-heading h1 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
@@ -224,20 +229,135 @@ p {
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
+    margin-bottom: 16px;
 }
-.gifts-heading h5{
+
+.gifts-heading h5 {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 160% */
+    line-height: 32px;
+    /* 160% */
+
 }
-.best-gifts{
+
+.best-gifts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.yellow-bag {
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 0px -35.755px / 100% 142.115% no-repeat;
+
+}
+
+.black-bag {
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.red-shoe {
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.cosmetic {
     display: flex;
     justify-content: space-between;
 }
-.cosmetic{
+
+.white-shoe {
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray -195.366px 0px / 156.077% 100% no-repeat;
+}
+
+.sunglass {
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.curi {
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.subscribe {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 82%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 100px 0;
+    flex-shrink: 0;
+    text-align: center;
+    height: 400px;
+
+}
+
+.imges {
+    margin-bottom: 24px;
+
+}
+
+.subscribe-heading h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+.subscribe-heading h5 {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    margin-bottom: 24px;
+}
+
+.btn-subscribe {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border: none;
+}
+
+#subscribe-form form {
+    max-width: 800px;
+    margin: 20px auto;
     display: flex;
-    justify-content: space-between;
+}
+
+#subscribe-form form input {
+    flex-grow: 1;
+    border: none;
+    border-radius: 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    padding: 24px;
 }
